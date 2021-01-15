@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Agendaapp from "./Component/Agendaapp";
+import Login from "./Component/Login";
+import Dashbord from "./Component/Dashbord";
+import "./index.css";
 
-function App() {
+import { BrowserRouter as Router,HashRouter, Route,NavLink,Redirect } from "react-router-dom";
+
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+           <Route exact strict component={Dashbord} path={'/Dashbord'} history={props.history} />
+
+           <Route exact strict component={Login} path={'/Login'} history={props.history} />
+      </Router>
     </div>
   );
 }

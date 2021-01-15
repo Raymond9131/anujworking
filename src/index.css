@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/*-------------*/
+.btn {
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Green */
+.success {
+  border-color: #9AECDB;
+  color: white;
+}
+
+.success:hover {
+  background-color: #9AECDB;
+  color: white;
+}
+.p{
+  font-size: small;
+}
+
+.login-btn{
+  border-radius: 10%;
+  margin: 1% ;
+  background-color: rgb(95, 95, 243);
+  color: #fff;
+}
+
+.sol_radio_dis {
+  display:"flex";
+  align-items: "center";
+  justify-content:'space-between'
+}
+
+.station_ovr {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.station{
+  background-color: rgb(38, 38, 182);
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.charger{
+  background-color: orange;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connector{
+  background-color: brown;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status{
+  background-color: darkblue;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other_info{
+  background-color: #9AECDB;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.td_look1{
+  border: 1px solid black;  
+  width: 40px;
+  padding: 15px;
+}
+
+.td_look{
+  border: 1px solid black;  
+  width: 100px;
+  padding: 15px;
+}
+
+.td_look3{
+  border: 1px solid black;  
+  width: 100px;
+  padding: 15px;
+}
+
+.table_spacing{
+  border-collapse: separate;
+  border-spacing:5px 15px
+}
